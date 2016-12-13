@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PhotoFire.xcscheme</key>
+		<key>photoFire.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>14DF3AA01D5A6B550042AD80</key>
+		<key>1485E8F61DFF14DE001208CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

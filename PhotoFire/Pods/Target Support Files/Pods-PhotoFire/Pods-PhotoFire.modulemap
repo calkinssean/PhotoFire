@@ -1,5 +1,5 @@
-framework module Pods_PhotoFire {
-  umbrella header "Pods-PhotoFire-umbrella.h"
+framework module Pods_photoFire {
+  umbrella header "Pods-photoFire-umbrella.h"
 
   export *
   module * { export * }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14DF3AA01D5A6B550042AD80"
-               BuildableName = "PhotoFire.app"
-               BlueprintName = "PhotoFire"
-               ReferencedContainer = "container:PhotoFire.xcodeproj">
+               BlueprintIdentifier = "1485E8F61DFF14DE001208CC"
+               BuildableName = "photoFire.app"
+               BlueprintName = "photoFire"
+               ReferencedContainer = "container:photoFire.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14DF3AA01D5A6B550042AD80"
-            BuildableName = "PhotoFire.app"
-            BlueprintName = "PhotoFire"
-            ReferencedContainer = "container:PhotoFire.xcodeproj">
+            BlueprintIdentifier = "1485E8F61DFF14DE001208CC"
+            BuildableName = "photoFire.app"
+            BlueprintName = "photoFire"
+            ReferencedContainer = "container:photoFire.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14DF3AA01D5A6B550042AD80"
-            BuildableName = "PhotoFire.app"
-            BlueprintName = "PhotoFire"
-            ReferencedContainer = "container:PhotoFire.xcodeproj">
+            BlueprintIdentifier = "1485E8F61DFF14DE001208CC"
+            BuildableName = "photoFire.app"
+            BlueprintName = "photoFire"
+            ReferencedContainer = "container:photoFire.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14DF3AA01D5A6B550042AD80"
-            BuildableName = "PhotoFire.app"
-            BlueprintName = "PhotoFire"
-            ReferencedContainer = "container:PhotoFire.xcodeproj">
+            BlueprintIdentifier = "1485E8F61DFF14DE001208CC"
+            BuildableName = "photoFire.app"
+            BlueprintName = "photoFire"
+            ReferencedContainer = "container:photoFire.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,4 +1,4 @@
 # PhotoFire
 Firebase photopicker revamped
 
-Created mostly for practicing subclassing NSOperationQueue
+Using new Firebase, created for practicing uploading and downloading files from firebase in another app.

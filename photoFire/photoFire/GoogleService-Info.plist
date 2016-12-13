@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAMIvJDmANsHeWcKSQpYT4RldC3AmZXJKc</string>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>617913820891-d41po6k1q1h4jh0u7gt11ei2o1eeq7gk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.617913820891-d41po6k1q1h4jh0u7gt11ei2o1eeq7gk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>617913820891</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.seanCalkins.photoFire</string>
+	<key>PROJECT_ID</key>
+	<string>photofire-ea973</string>
+	<key>STORAGE_BUCKET</key>
+	<string>photofire-ea973.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:617913820891:ios:1e7fc7f0dc747eda</string>
+	<key>DATABASE_URL</key>
+	<string>https://photofire-ea973.firebaseio.com</string>
+</dict>
+</plist>

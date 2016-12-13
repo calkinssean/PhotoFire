@@ -7,83 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14DF3AA51D5A6B550042AD80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DF3AA41D5A6B550042AD80 /* AppDelegate.swift */; };
-		14DF3AA71D5A6B550042AD80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DF3AA61D5A6B550042AD80 /* ViewController.swift */; };
-		14DF3AAA1D5A6B550042AD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DF3AA81D5A6B550042AD80 /* Main.storyboard */; };
-		14DF3AAC1D5A6B560042AD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DF3AAB1D5A6B560042AD80 /* Assets.xcassets */; };
-		14DF3AAF1D5A6B560042AD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DF3AAD1D5A6B560042AD80 /* LaunchScreen.storyboard */; };
-		F038788195489ADF796D3705 /* Pods_PhotoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733039B82F11E5672E82FD2C /* Pods_PhotoFire.framework */; };
+		1485E8FB1DFF14DE001208CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485E8FA1DFF14DE001208CC /* AppDelegate.swift */; };
+		1485E8FD1DFF14DE001208CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485E8FC1DFF14DE001208CC /* ViewController.swift */; };
+		1485E9001DFF14DE001208CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1485E8FE1DFF14DE001208CC /* Main.storyboard */; };
+		1485E9021DFF14DF001208CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1485E9011DFF14DF001208CC /* Assets.xcassets */; };
+		1485E9051DFF14DF001208CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1485E9031DFF14DF001208CC /* LaunchScreen.storyboard */; };
+		1485E90D1DFF1555001208CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1485E90C1DFF1555001208CC /* GoogleService-Info.plist */; };
+		1485E90F1DFF17F3001208CC /* PhotoFireTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485E90E1DFF17F3001208CC /* PhotoFireTableViewCell.swift */; };
+		1485E9111DFF1806001208CC /* FirePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485E9101DFF1806001208CC /* FirePhoto.swift */; };
+		1485E9151DFF1A32001208CC /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485E9141DFF1A32001208CC /* FirebaseController.swift */; };
+		BA344E4B08FD1A7C9EAADCF6 /* Pods_photoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1924B4555459CB840AC81709 /* Pods_photoFire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1437C34DB4FEE40326E5529F /* Pods-PhotoFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoFire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoFire/Pods-PhotoFire.debug.xcconfig"; sourceTree = "<group>"; };
-		14DF3AA11D5A6B550042AD80 /* PhotoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14DF3AA41D5A6B550042AD80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14DF3AA61D5A6B550042AD80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		14DF3AA91D5A6B550042AD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14DF3AAB1D5A6B560042AD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14DF3AAE1D5A6B560042AD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		14DF3AB01D5A6B560042AD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BE700EB3DC847BE281C6AF7 /* Pods-PhotoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoFire/Pods-PhotoFire.release.xcconfig"; sourceTree = "<group>"; };
-		733039B82F11E5672E82FD2C /* Pods_PhotoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1485E8F71DFF14DE001208CC /* photoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1485E8FA1DFF14DE001208CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1485E8FC1DFF14DE001208CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1485E8FF1DFF14DE001208CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1485E9011DFF14DF001208CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1485E9041DFF14DF001208CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1485E9061DFF14DF001208CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1485E90C1DFF1555001208CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1485E90E1DFF17F3001208CC /* PhotoFireTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFireTableViewCell.swift; sourceTree = "<group>"; };
+		1485E9101DFF1806001208CC /* FirePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirePhoto.swift; sourceTree = "<group>"; };
+		1485E9141DFF1A32001208CC /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		1924B4555459CB840AC81709 /* Pods_photoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		363068A71789348EFD5E8CCD /* Pods-photoFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoFire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photoFire/Pods-photoFire.debug.xcconfig"; sourceTree = "<group>"; };
+		97298593C977F9ACD313AFF1 /* Pods-photoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-photoFire/Pods-photoFire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14DF3A9E1D5A6B550042AD80 /* Frameworks */ = {
+		1485E8F41DFF14DE001208CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F038788195489ADF796D3705 /* Pods_PhotoFire.framework in Frameworks */,
+				BA344E4B08FD1A7C9EAADCF6 /* Pods_photoFire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14DF3A981D5A6B550042AD80 = {
+		1485E8EE1DFF14DE001208CC = {
 			isa = PBXGroup;
 			children = (
-				14DF3AA31D5A6B550042AD80 /* PhotoFire */,
-				14DF3AA21D5A6B550042AD80 /* Products */,
-				C1BF1A91D13D2509A88C9897 /* Pods */,
-				90CA50D75709035220506D9C /* Frameworks */,
+				1485E8F91DFF14DE001208CC /* photoFire */,
+				1485E8F81DFF14DE001208CC /* Products */,
+				9F56046822E3E133A8302C44 /* Pods */,
+				83D76F338EF512E342A22AFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		14DF3AA21D5A6B550042AD80 /* Products */ = {
+		1485E8F81DFF14DE001208CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14DF3AA11D5A6B550042AD80 /* PhotoFire.app */,
+				1485E8F71DFF14DE001208CC /* photoFire.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14DF3AA31D5A6B550042AD80 /* PhotoFire */ = {
+		1485E8F91DFF14DE001208CC /* photoFire */ = {
 			isa = PBXGroup;
 			children = (
-				14DF3AA41D5A6B550042AD80 /* AppDelegate.swift */,
-				14DF3AA61D5A6B550042AD80 /* ViewController.swift */,
-				14DF3AA81D5A6B550042AD80 /* Main.storyboard */,
-				14DF3AAB1D5A6B560042AD80 /* Assets.xcassets */,
-				14DF3AAD1D5A6B560042AD80 /* LaunchScreen.storyboard */,
-				14DF3AB01D5A6B560042AD80 /* Info.plist */,
+				1485E8FA1DFF14DE001208CC /* AppDelegate.swift */,
+				1485E9171DFF1A57001208CC /* View Controllers */,
+				1485E9131DFF1813001208CC /* Models */,
+				1485E9121DFF180F001208CC /* Views */,
+				1485E9161DFF1A3E001208CC /* Controllers */,
+				1485E8FE1DFF14DE001208CC /* Main.storyboard */,
+				1485E9011DFF14DF001208CC /* Assets.xcassets */,
+				1485E9031DFF14DF001208CC /* LaunchScreen.storyboard */,
+				1485E90C1DFF1555001208CC /* GoogleService-Info.plist */,
+				1485E9061DFF14DF001208CC /* Info.plist */,
 			);
-			path = PhotoFire;
+			path = photoFire;
 			sourceTree = "<group>";
 		};
-		90CA50D75709035220506D9C /* Frameworks */ = {
+		1485E9121DFF180F001208CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				733039B82F11E5672E82FD2C /* Pods_PhotoFire.framework */,
+				1485E90E1DFF17F3001208CC /* PhotoFireTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1485E9131DFF1813001208CC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1485E9101DFF1806001208CC /* FirePhoto.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1485E9161DFF1A3E001208CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1485E9141DFF1A32001208CC /* FirebaseController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1485E9171DFF1A57001208CC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1485E8FC1DFF14DE001208CC /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		83D76F338EF512E342A22AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1924B4555459CB840AC81709 /* Pods_photoFire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C1BF1A91D13D2509A88C9897 /* Pods */ = {
+		9F56046822E3E133A8302C44 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1437C34DB4FEE40326E5529F /* Pods-PhotoFire.debug.xcconfig */,
-				5BE700EB3DC847BE281C6AF7 /* Pods-PhotoFire.release.xcconfig */,
+				363068A71789348EFD5E8CCD /* Pods-photoFire.debug.xcconfig */,
+				97298593C977F9ACD313AFF1 /* Pods-photoFire.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -91,42 +135,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14DF3AA01D5A6B550042AD80 /* PhotoFire */ = {
+		1485E8F61DFF14DE001208CC /* photoFire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DF3AB31D5A6B560042AD80 /* Build configuration list for PBXNativeTarget "PhotoFire" */;
+			buildConfigurationList = 1485E9091DFF14DF001208CC /* Build configuration list for PBXNativeTarget "photoFire" */;
 			buildPhases = (
-				A84EF6EAAAC13BC3B2F821B2 /* [CP] Check Pods Manifest.lock */,
-				14DF3A9D1D5A6B550042AD80 /* Sources */,
-				14DF3A9E1D5A6B550042AD80 /* Frameworks */,
-				14DF3A9F1D5A6B550042AD80 /* Resources */,
-				B0F85B14F4338049D1B59B6D /* [CP] Embed Pods Frameworks */,
-				48B0F0CCA1FFA551ADB9F2EF /* [CP] Copy Pods Resources */,
+				8A7750C24BBF2A8A727B1DEE /* [CP] Check Pods Manifest.lock */,
+				1485E8F31DFF14DE001208CC /* Sources */,
+				1485E8F41DFF14DE001208CC /* Frameworks */,
+				1485E8F51DFF14DE001208CC /* Resources */,
+				B50E4632B1368F9FC3055AC2 /* [CP] Embed Pods Frameworks */,
+				344044FC387DC32FB597E11D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PhotoFire;
-			productName = PhotoFire;
-			productReference = 14DF3AA11D5A6B550042AD80 /* PhotoFire.app */;
+			name = photoFire;
+			productName = photoFire;
+			productReference = 1485E8F71DFF14DE001208CC /* photoFire.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		14DF3A991D5A6B550042AD80 /* Project object */ = {
+		1485E8EF1DFF14DE001208CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Sean Calkins";
 				TargetAttributes = {
-					14DF3AA01D5A6B550042AD80 = {
-						CreatedOnToolsVersion = 7.3.1;
+					1485E8F61DFF14DE001208CC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 954HJ5Q475;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 14DF3A9C1D5A6B550042AD80 /* Build configuration list for PBXProject "PhotoFire" */;
+			buildConfigurationList = 1485E8F21DFF14DE001208CC /* Build configuration list for PBXProject "photoFire" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -134,31 +180,32 @@
 				en,
 				Base,
 			);
-			mainGroup = 14DF3A981D5A6B550042AD80;
-			productRefGroup = 14DF3AA21D5A6B550042AD80 /* Products */;
+			mainGroup = 1485E8EE1DFF14DE001208CC;
+			productRefGroup = 1485E8F81DFF14DE001208CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14DF3AA01D5A6B550042AD80 /* PhotoFire */,
+				1485E8F61DFF14DE001208CC /* photoFire */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14DF3A9F1D5A6B550042AD80 /* Resources */ = {
+		1485E8F51DFF14DE001208CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DF3AAF1D5A6B560042AD80 /* LaunchScreen.storyboard in Resources */,
-				14DF3AAC1D5A6B560042AD80 /* Assets.xcassets in Resources */,
-				14DF3AAA1D5A6B550042AD80 /* Main.storyboard in Resources */,
+				1485E9051DFF14DF001208CC /* LaunchScreen.storyboard in Resources */,
+				1485E90D1DFF1555001208CC /* GoogleService-Info.plist in Resources */,
+				1485E9021DFF14DF001208CC /* Assets.xcassets in Resources */,
+				1485E9001DFF14DE001208CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		48B0F0CCA1FFA551ADB9F2EF /* [CP] Copy Pods Resources */ = {
+		344044FC387DC32FB597E11D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -170,10 +217,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoFire/Pods-PhotoFire-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photoFire/Pods-photoFire-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A84EF6EAAAC13BC3B2F821B2 /* [CP] Check Pods Manifest.lock */ = {
+		8A7750C24BBF2A8A727B1DEE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,7 +235,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B0F85B14F4338049D1B59B6D /* [CP] Embed Pods Frameworks */ = {
+		B50E4632B1368F9FC3055AC2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,36 +247,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoFire/Pods-PhotoFire-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photoFire/Pods-photoFire-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14DF3A9D1D5A6B550042AD80 /* Sources */ = {
+		1485E8F31DFF14DE001208CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DF3AA71D5A6B550042AD80 /* ViewController.swift in Sources */,
-				14DF3AA51D5A6B550042AD80 /* AppDelegate.swift in Sources */,
+				1485E9151DFF1A32001208CC /* FirebaseController.swift in Sources */,
+				1485E9111DFF1806001208CC /* FirePhoto.swift in Sources */,
+				1485E90F1DFF17F3001208CC /* PhotoFireTableViewCell.swift in Sources */,
+				1485E8FD1DFF14DE001208CC /* ViewController.swift in Sources */,
+				1485E8FB1DFF14DE001208CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		14DF3AA81D5A6B550042AD80 /* Main.storyboard */ = {
+		1485E8FE1DFF14DE001208CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				14DF3AA91D5A6B550042AD80 /* Base */,
+				1485E8FF1DFF14DE001208CC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		14DF3AAD1D5A6B560042AD80 /* LaunchScreen.storyboard */ = {
+		1485E9031DFF14DF001208CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				14DF3AAE1D5A6B560042AD80 /* Base */,
+				1485E9041DFF14DF001208CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -237,7 +287,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		14DF3AB11D5A6B560042AD80 /* Debug */ = {
+		1485E9071DFF14DF001208CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,10 +299,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -274,15 +327,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		14DF3AB21D5A6B560042AD80 /* Release */ = {
+		1485E9081DFF14DF001208CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,10 +348,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -313,59 +370,64 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		14DF3AB41D5A6B560042AD80 /* Debug */ = {
+		1485E90A1DFF14DF001208CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1437C34DB4FEE40326E5529F /* Pods-PhotoFire.debug.xcconfig */;
+			baseConfigurationReference = 363068A71789348EFD5E8CCD /* Pods-photoFire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PhotoFire/Info.plist;
+				DEVELOPMENT_TEAM = 954HJ5Q475;
+				INFOPLIST_FILE = photoFire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SeanCalkins.PhotoFire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanCalkins.photoFire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		14DF3AB51D5A6B560042AD80 /* Release */ = {
+		1485E90B1DFF14DF001208CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BE700EB3DC847BE281C6AF7 /* Pods-PhotoFire.release.xcconfig */;
+			baseConfigurationReference = 97298593C977F9ACD313AFF1 /* Pods-photoFire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PhotoFire/Info.plist;
+				DEVELOPMENT_TEAM = 954HJ5Q475;
+				INFOPLIST_FILE = photoFire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SeanCalkins.PhotoFire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanCalkins.photoFire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14DF3A9C1D5A6B550042AD80 /* Build configuration list for PBXProject "PhotoFire" */ = {
+		1485E8F21DFF14DE001208CC /* Build configuration list for PBXProject "photoFire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14DF3AB11D5A6B560042AD80 /* Debug */,
-				14DF3AB21D5A6B560042AD80 /* Release */,
+				1485E9071DFF14DF001208CC /* Debug */,
+				1485E9081DFF14DF001208CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14DF3AB31D5A6B560042AD80 /* Build configuration list for PBXNativeTarget "PhotoFire" */ = {
+		1485E9091DFF14DF001208CC /* Build configuration list for PBXNativeTarget "photoFire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14DF3AB41D5A6B560042AD80 /* Debug */,
-				14DF3AB51D5A6B560042AD80 /* Release */,
+				1485E90A1DFF14DF001208CC /* Debug */,
+				1485E90B1DFF14DF001208CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 14DF3A991D5A6B550042AD80 /* Project object */;
+	rootObject = 1485E8EF1DFF14DE001208CC /* Project object */;
 }

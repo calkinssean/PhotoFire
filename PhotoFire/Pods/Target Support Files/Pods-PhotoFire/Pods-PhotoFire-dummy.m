@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_PhotoFire : NSObject
+@interface PodsDummy_Pods_photoFire : NSObject
 @end
-@implementation PodsDummy_Pods_PhotoFire
+@implementation PodsDummy_Pods_photoFire
 @end

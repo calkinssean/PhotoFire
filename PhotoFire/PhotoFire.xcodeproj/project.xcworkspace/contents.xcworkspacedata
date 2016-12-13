@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PhotoFire.xcodeproj">
+      location = "self:photoFire.xcodeproj">
    </FileRef>
 </Workspace>
